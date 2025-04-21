@@ -1,0 +1,146 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 40px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,9,121,0.9557072829131653) 0%, rgba(0,212,255,1) 100%);
+  }
+  .home button{
+      padding: 200px;
+      background-color: cadetblue;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      font-size: 45px;
+      font-weight: bold;
+      cursor: pointer;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,9,121,0.9557072829131653) 0%, rgba(0,212,255,1) 100%);
+  align-items: center;
+  }
+  .navbar h1{
+    color: white;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+  
+  }
+  .nav li{
+    background-color: cadetblue;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 15px;
+    list-style: none;
+  }
+  .nav li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .movielist{
+    display: grid;
+    padding: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .card{
+    padding: 45px;
+    border-radius: 25px;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,9,121,0.9557072829131653) 0%, rgba(0,212,255,1) 100%);
+  }
+  .card li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  
+  }
+  .card li h1{
+    color: white;
+    font-size: 25px;
+  }
+  .card li section{
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  .card li img{
+    border-radius: 20px;
+  }
+  .fav-icon{
+    height: 50px;
+    width: 50px;
+    margin-left: 70px;
+  }
+  .search input{
+    margin-right: 5px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+  
+  }
+  .search button{
+    background-color: cadetblue;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+  }
+  .order{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,9,121,0.9557072829131653) 0%, rgba(0,212,255,1) 100%);
+  }
+  
+  .order li{
+    background-color: cadetblue;
+    padding: 10px 40px;
+    list-style: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+  }
+  .pagination{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .pagination button{
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,9,121,0.9557072829131653) 0%, rgba(0,212,255,1) 100%);
+  }
+  .pagination button:disabled{
+    background: none;
+    background-color: gray;
+    
+   
+  }
